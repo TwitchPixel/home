@@ -59,9 +59,13 @@ h1, h2, h3, h4, h5, h6 {
         padding: 30px;
         padding-top: 50px;
     }
-        .mobile-padding p{
+        .mobile-padding p {
         font-size: 14px !important;
-            line-height: 20px;
+        line-height: 20px;
+    }
+    .headerSubtitle {
+        font-size: 14px !important;
+        line-height: 20px;
     }
     .header-top .mobile-padding {
         padding: 0px;
