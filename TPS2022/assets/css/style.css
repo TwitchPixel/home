@@ -144,6 +144,17 @@ img.zoom {
     padding: 35px 0px 0px 0px;
     margin: 10px 0 10px 0;
 }
+.TCLink {
+    font-size: 11px; 
+    color: #c5a9db;
+}
+.TCLink:hover {
+    font-size: 11px; 
+    color: mediumpurple;
+    }
+.header-top .TCLink {
+        display: none !important;
+    }
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -187,7 +198,7 @@ img.zoom {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #a66fd1;
   padding-bottom: 1px;
 }
 #header img {
@@ -212,7 +223,7 @@ img.zoom {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #a66fd1;
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -311,7 +322,7 @@ img.zoom {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #a66fd1;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -437,7 +448,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #a66fd1;
   margin: 4px 10px;
 }
 .section-title p {
