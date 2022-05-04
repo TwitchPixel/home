@@ -14,6 +14,7 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+    line-height: 30px;
 }
 body::before {
   content: "";
@@ -187,7 +188,7 @@ img.zoom {
 #header h2 span {
   color: #fff;
   border-bottom: 2px solid #18d26e;
-  padding-bottom: 6px;
+  padding-bottom: 1px;
 }
 #header img {
   padding: 0;
@@ -442,7 +443,7 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 700;
   padding-left: 15px;
   text-transform: uppercase;
