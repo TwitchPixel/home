@@ -75,6 +75,9 @@ h1, h2, h3, h4, h5, h6 {
     .li-minMarg {
         margin-top: 5px !important;
     }
+    #header h2 {
+    font-size: 18px;
+    }
 }
 
 #demo {
@@ -145,7 +148,7 @@ img.zoom {
     margin: 10px 0 10px 0;
 }
 .TCLink {
-    font-size: 11px; 
+    font-size: 10px; 
     color: #c5a9db;
 }
 .TCLink:hover {
