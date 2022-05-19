@@ -49,7 +49,17 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # JEFF CUSTOM CSS
 --------------------------------------------------------------*/
- .mobile-padding{
+.zoomie:hover {
+  transform: scale(1.10); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .2s; /* Animation */
+} 
+
+.zoomie2:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .2s; /* Animation */
+} 
+
+.mobile-padding{
         padding: 0px;
         padding-top: 0px;
     }
