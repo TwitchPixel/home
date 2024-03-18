@@ -1,0 +1,1148 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
+a {
+  color: #f5c000;
+  text-decoration: underline;
+}
+
+.body {
+  max-width: 1024px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsla(0, 0%, 89.8%, 0);
+  background-image: url('../images/WoodplanksBG.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  height: 80px;
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.navbar.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  height: 60px;
+  padding-top: 0px;
+  background-color: hsla(0, 0%, 100%, 0.95);
+}
+
+.image-2 {
+  max-width: 90%;
+  margin-top: 4px;
+}
+
+.container-6 {
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.div-block {
+  display: block;
+  width: 100%;
+  min-height: 500px;
+  min-width: 100%;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-image: url('../images/banner-image-2.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.grid-5 {
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.h1mainhero {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 28px;
+}
+
+.pmainhero {
+  padding-top: 2%;
+  padding-right: 10%;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btnmainhero {
+  display: block;
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #f5c000;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.overlaycontainmainblock {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  padding-left: 20%;
+}
+
+.h2mainheading {
+  margin-bottom: -10px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.mainherosubparagraph {
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+}
+
+.mainheadermobile {
+  display: none;
+}
+
+.columns {
+  height: auto;
+}
+
+.div-block-3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+
+.div-block-4 {
+  background-image: url('../images/gallery-image-6.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-3 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-6 {
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph-3 {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  font-family: 'Droid Sans', sans-serif;
+  text-align: center;
+}
+
+.div-block-7 {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.div-block-8 {
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-9 {
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #79de4d;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.heading-2 {
+  margin-bottom: -20px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 24px;
+}
+
+.paragraph-4 {
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+}
+
+.heading-3 {
+  margin-bottom: 20px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 36px;
+}
+
+.paragraph-5 {
+  max-width: 650px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  font-family: Bitter, serif;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.container-7 {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.div-block-10 {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.div-block-11 {
+  background-color: #fff;
+}
+
+.button {
+  width: 80%;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f5c000;
+  font-family: Bitter, serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscribe-form {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.centered-container {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.subscribe-form-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.subscribe-form-input-wrapper {
+  text-align: left;
+}
+
+.subscribe-form-input {
+  margin-bottom: 0px;
+}
+
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.submit-button {
+  background-color: #f5c000;
+  font-family: Bitter, serif;
+  font-weight: 700;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.footer-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer-logo-link {
+  max-height: 60px;
+  min-width: 60px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.footer-image {
+  width: 100%;
+  height: 60px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 0% 50%;
+  object-position: 0% 50%;
+}
+
+.footer-link {
+  display: block;
+  margin-top: 15%;
+  margin-bottom: 10px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #444;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.heading-4 {
+  font-family: Bitter, serif;
+}
+
+.paragraph-6 {
+  font-family: Bitter, serif;
+  font-size: 16px;
+}
+
+.text-block {
+  font-family: Bitter, serif;
+  font-size: 10px;
+}
+
+.facebook {
+  margin-top: 2%;
+  margin-bottom: auto;
+}
+
+.mobileonly-2 {
+  display: none;
+}
+
+.heading-5 {
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: Bitter, serif;
+  color: #656565;
+  font-size: 24px;
+}
+
+.paragraph-7 {
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #676767;
+}
+
+.div-block-14 {
+  padding-top: 40px;
+  background-color: #fff;
+}
+
+.image-4 {
+  width: 320px;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-5 {
+  display: block;
+  width: 320px;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph6 {
+  font-family: Bitter, serif;
+  font-size: 24px;
+}
+
+.div-block-17 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: hsla(0, 0%, 100%, 0);
+  background-image: url('../images/WoodplanksBG.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.heading-faction {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container-8 {
+  padding-right: 140px;
+  padding-bottom: 40px;
+  padding-left: 140px;
+}
+
+.paragraph-8 {
+  margin-bottom: 40px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.image-6 {
+  width: 150px;
+  margin-right: -30%;
+  margin-left: 0px;
+}
+
+.column-7 {
+  text-align: center;
+}
+
+.column-8 {
+  text-align: center;
+}
+
+.column-9 {
+  text-align: center;
+}
+
+.column-10 {
+  text-align: center;
+}
+
+.column-11 {
+  text-align: center;
+}
+
+.image-7 {
+  margin-left: -30%;
+}
+
+.column-12 {
+  text-align: center;
+}
+
+.column-13 {
+  text-align: center;
+}
+
+.column-14 {
+  text-align: center;
+}
+
+.column-15 {
+  text-align: center;
+}
+
+.div-block-18 {
+  background-color: #fff;
+  color: #333;
+}
+
+.div-block-18.featuresmobile {
+  display: none;
+}
+
+.column-17 {
+  text-align: center;
+}
+
+.column-18 {
+  text-align: center;
+}
+
+.column-19 {
+  text-align: center;
+}
+
+.column-20 {
+  text-align: center;
+}
+
+.column-22 {
+  text-align: center;
+}
+
+.div-block-19 {
+  padding: 20px 40px 60px;
+  background-image: url('../images/black-sand-dunes-2387793.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading-8 {
+  margin-bottom: 0px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.paragraph-10 {
+  margin-bottom: 20px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.div-block-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div-block-21 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div-block-22 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div-block-23 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div-block-24 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button-2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../images/tpoh-_0000_FacebbokIcon2.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.button-3 {
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../images/tpoh-_0001_InstgramIcon.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.button-4 {
+  width: 30px;
+  height: 30px;
+  margin-top: 12px;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../images/tpoh-_0001_InstgramIcon.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-block-26 {
+  width: 100px;
+  max-height: 50px;
+}
+
+.div-block-27 {
+  width: 0px;
+  height: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  a {
+    color: #f5c000;
+  }
+  .body {
+    max-width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .div-block {
+    min-height: 335px;
+  }
+  .grid-5 {
+    -ms-grid-columns: 2.25fr 1fr;
+    grid-template-columns: 2.25fr 1fr;
+    box-shadow: none;
+  }
+  .h1mainhero {
+    margin-top: 0px;
+    font-size: 30px;
+  }
+  .pmainhero {
+    padding-right: 25%;
+    font-weight: 400;
+  }
+  .btnmainhero {
+    margin-top: 0px;
+  }
+  .overlaycontainmainblock {
+    padding-top: 6%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+  }
+  .h2mainheading {
+    margin-bottom: -10px;
+    color: #fff;
+    font-size: 22px;
+  }
+  .mainherosubparagraph {
+    padding-right: 35%;
+  }
+  .column {
+    margin-top: 40px;
+  }
+  .column-2 {
+    margin-top: 40px;
+  }
+  .column-3 {
+    margin-top: 40px;
+  }
+  .div-block-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: 50% 50%;
+  }
+  .paragraph-4 {
+    max-width: 300px;
+    padding-bottom: 40px;
+  }
+  .paragraph-5 {
+    line-height: 120%;
+  }
+  .container-7 {
+    padding-bottom: 40px;
+  }
+  .button {
+    margin-bottom: 0px;
+  }
+  .subscribe-form {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .paragraph-6 {
+    padding-top: 20px;
+    padding-right: 140px;
+    padding-left: 140px;
+  }
+  .mobileonly-2 {
+    display: none;
+  }
+  .heading-5 {
+    line-height: 30px;
+  }
+  .div-block-18.featuresmobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .div-block {
+    display: block;
+    min-height: 315px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .grid-5 {
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-grid-columns: 2.5fr 0.5fr;
+    grid-template-columns: 2.5fr 0.5fr;
+  }
+  .h1mainhero {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  .pmainhero {
+    padding-top: 0%;
+    padding-right: 35%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .btnmainhero {
+    margin-top: 0px;
+    padding-top: 15px;
+  }
+  .overlaycontainmainblock {
+    padding-top: 2%;
+    padding-left: 10%;
+  }
+  .h2mainheading {
+    margin-top: 25px;
+    margin-bottom: -15px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .mainherosubparagraph {
+    padding-right: 35%;
+  }
+  .mainheadermobile {
+    display: none;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    background-image: url('../images/TPOH-Mobile-Banners-_0002_Slide-1---Copy.jpg');
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .grid-6 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .div-block-2 {
+    max-width: 450px;
+    padding-top: 95%;
+    padding-left: 40px;
+  }
+  .div-block-3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .div-block-4 {
+    display: none;
+  }
+  .image-3 {
+    width: 120px;
+  }
+  .div-block-6 {
+    width: 90px;
+  }
+  .paragraph-3 {
+    width: 125px;
+  }
+  .div-block-7 {
+    width: 125px;
+  }
+  .div-block-8 {
+    width: 110px;
+  }
+  .div-block-9 {
+    width: 90px;
+  }
+  .heading {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .heading-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .paragraph-4 {
+    max-width: 100%;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+  .heading-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .paragraph-5 {
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .subscribe-form {
+    padding: 60px 20px 80px;
+  }
+  .sticky-nav {
+    position: relative;
+  }
+  .footer {
+    padding: 40px 20px;
+  }
+  .footer-image {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .paragraph-6 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .mobileonly-2 {
+    display: block;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-image: url('../images/gallery-image-2-Dark-2.jpg');
+    background-position: 100% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .div-space-1 {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .div-block-14 {
+    display: none;
+  }
+  .paragraph6 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .container-8 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .paragraph-8 {
+    min-width: 200px;
+  }
+  .image-6 {
+    margin-right: 0%;
+  }
+  .image-7 {
+    margin-left: 0%;
+  }
+  .div-block-18.featuresmobile {
+    display: block;
+  }
+  .column-23 {
+    padding-top: 60px;
+  }
+  .column-24 {
+    padding-top: 60px;
+  }
+  .column-25 {
+    padding-top: 60px;
+  }
+  .column-26 {
+    padding-top: 60px;
+  }
+  .container-9 {
+    padding-top: 60px;
+  }
+  .column-27 {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .div-block {
+    display: none;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .grid-5 {
+    display: none;
+  }
+  .pmainhero {
+    padding-right: 5%;
+  }
+  .btnmainhero {
+    margin-bottom: 50px;
+  }
+  .mainherosubparagraph {
+    padding-right: 5%;
+  }
+  .mainheadermobile {
+    display: block;
+  }
+  .grid-6 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .div-block-2 {
+    min-height: 550px;
+    padding-top: 95%;
+    padding-right: 5%;
+    padding-left: 10%;
+    background-image: url('../images/TPOH-Mobile-Banners-_0002_Slide-1---Copy.jpg');
+    background-position: 50% 0%;
+    background-size: cover;
+  }
+  .image-3 {
+    width: 150px;
+  }
+  .div-block-6 {
+    width: 150px;
+  }
+  .div-block-8 {
+    width: 150px;
+  }
+  .div-block-9 {
+    width: 150px;
+  }
+  .heading {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .heading-2 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .paragraph-4 {
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+  }
+  .heading-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .subscribe-form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .centered-container {
+    text-align: left;
+  }
+  .subscribe-form-input-wrapper {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .subscribe-form-input {
+    width: 100%;
+  }
+  .sticky-nav {
+    padding: 0px;
+  }
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .footer-flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer-logo-link {
+    height: 60px;
+  }
+  .paragraph-6 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .facebook {
+    padding-top: 20px;
+  }
+  .mobileonly-2 {
+    background-color: #000;
+    background-image: url('../images/TPOH-Mobile-Banners-_0000_Slide-3.jpg');
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .div-space-1 {
+    display: block;
+    margin-top: 0px;
+    padding-top: 320px;
+  }
+  .heading-5 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .div-block-14 {
+    display: none;
+  }
+  .paragraph6 {
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .div-block-17 {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .heading-faction {
+    display: block;
+    padding-bottom: 20px;
+    line-height: 28px;
+  }
+  .container-8 {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .div-block-18.featuresmobile {
+    padding-top: 40px;
+  }
+  .column-23 {
+    padding-top: 40px;
+  }
+  .column-24 {
+    padding-top: 40px;
+  }
+  .column-25 {
+    padding-top: 40px;
+  }
+  .column-26 {
+    padding-top: 40px;
+  }
+  .columns-2 {
+    padding-bottom: 40px;
+  }
+  .div-block-19 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .heading-8 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .paragraph-10 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .div-block-25 {
+    display: none;
+  }
+  .columns-3 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+}
+
