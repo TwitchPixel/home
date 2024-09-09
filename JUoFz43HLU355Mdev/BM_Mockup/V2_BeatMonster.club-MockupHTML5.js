@@ -3584,7 +3584,7 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_19 = function() {
-		this.GoPremium1.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		this.BigGreenBTN.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame()
 		{
@@ -3592,7 +3592,7 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_21 = function() {
-		this.GoPremium3.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		this.LilRedBTN.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame()
 		{
@@ -3600,7 +3600,7 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_23 = function() {
-		this.GoPremium5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		this.PurpsBTN.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame()
 		{
@@ -3608,7 +3608,7 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_25 = function() {
-		this.GoPremium7.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		this.FloofersBTN.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame()
 		{
@@ -3616,7 +3616,7 @@ if (reversed == null) { reversed = false; }
 		}
 	}
 	this.frame_27 = function() {
-		this.GoPremium9.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		this.LilPipsBTN.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
 		
 		function fl_ClickToGoToAndPlayFromFrame()
 		{
@@ -3654,10 +3654,16 @@ if (reversed == null) { reversed = false; }
 		});
 	}
 	this.frame_75 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.FinishCust.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		    console.log("FinishCust button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");
+		    if (exportRoot.CheckoutScene) {
+		        exportRoot.CheckoutScene.gotoAndPlay(1);
+		        console.log("Started Checkout scene");
+		    } else {
+		        console.log("CheckoutScene not found");
+		    }
 		});
 	}
 	this.frame_85 = function() {
@@ -3669,21 +3675,81 @@ if (reversed == null) { reversed = false; }
 	}
 	this.frame_91 = function() {
 		this.stop();
+		// Assuming 'myButton' is the instance name of the MovieClip you want to click
+		this.FinishCust.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+			exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		});
+		this.GoPremiumBTN2.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+		    exportRoot.UpsellPopUp.gotoAndPlay(1);  // Play from frame 1 in the UpsellPopUp movie clip
+		});
 	}
 	this.frame_97 = function() {
 		this.stop();
+		// Assuming 'myButton' is the instance name of the MovieClip you want to click
+		this.FinishCust.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+			exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		});
+		this.GoPremiumBTN2.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+		    exportRoot.UpsellPopUp.gotoAndPlay(1);  // Play from frame 1 in the UpsellPopUp movie clip
+		});
 	}
 	this.frame_103 = function() {
 		this.stop();
+		// Assuming 'myButton' is the instance name of the MovieClip you want to click
+		this.FinishCust.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+			exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		});
+		this.GoPremiumBTN2.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+		    exportRoot.UpsellPopUp.gotoAndPlay(1);  // Play from frame 1 in the UpsellPopUp movie clip
+		});
 	}
 	this.frame_109 = function() {
 		this.stop();
+		// Assuming 'myButton' is the instance name of the MovieClip you want to click
+		this.FinishCust.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+			exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		});
+		this.GoPremiumBTN2.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+		    exportRoot.UpsellPopUp.gotoAndPlay(1);  // Play from frame 1 in the UpsellPopUp movie clip
+		});
 	}
 	this.frame_115 = function() {
 		this.stop();
+		// Assuming 'myButton' is the instance name of the MovieClip you want to click
+		this.FinishCust.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+			exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		});
+		this.GoPremiumBTN2.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+		    exportRoot.UpsellPopUp.gotoAndPlay(1);  // Play from frame 1 in the UpsellPopUp movie clip
+		});
 	}
 	this.frame_121 = function() {
 		this.stop();
+		// Assuming 'myButton' is the instance name of the MovieClip you want to click
+		this.FinishCust.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+			exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Checkout");  // Replace with the actual label name on the main timeline
+		});
+		this.GoPremiumBTN2.addEventListener("click", function() {
+		    // Reference the main timeline through 'exportRoot'
+		    exportRoot.UpsellPopUp.gotoAndPlay(1);  // Play from frame 1 in the UpsellPopUp movie clip
+		});
 	}
 
 	// actions tween:
@@ -3746,9 +3812,10 @@ if (reversed == null) { reversed = false; }
 	this.FinishCust = new lib.FinishCyustomizationBTN();
 	this.FinishCust.name = "FinishCust";
 	this.FinishCust.setTransform(674.25,409.3);
+	this.FinishCust._off = true;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},68).to({state:[{t:this.instance_6}]},4).to({state:[{t:this.FinishCust}]},3).wait(47));
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(68).to({_off:false},0).to({regX:0,scaleX:1.0628,scaleY:1.0628,x:674.25,alpha:1},4).to({_off:true,scaleX:1,scaleY:1},3).wait(47));
+	this.timeline.addTween(cjs.Tween.get(this.FinishCust).wait(72).to({_off:false},3).wait(47));
 
 	// Go_Premium_
 	this.instance_7 = new lib.GoPremium_1();
@@ -3759,9 +3826,10 @@ if (reversed == null) { reversed = false; }
 	this.GoPremiumBTN2 = new lib.GoPremium_1();
 	this.GoPremiumBTN2.name = "GoPremiumBTN2";
 	this.GoPremiumBTN2.setTransform(-714,379);
+	this.GoPremiumBTN2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7}]},76).to({state:[{t:this.instance_7}]},6).to({state:[{t:this.GoPremiumBTN2}]},3).wait(37));
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(76).to({_off:false},0).to({scaleX:1.1121,scaleY:1.1121,alpha:1},6).to({_off:true,scaleX:1,scaleY:1},3).wait(37));
+	this.timeline.addTween(cjs.Tween.get(this.GoPremiumBTN2).wait(82).to({_off:false},3).wait(37));
 
 	// Character_Select
 	this.instance_8 = new lib.CharacterSelect_1();
@@ -3857,11 +3925,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_16.alpha = 0;
 	this.instance_16._off = true;
 
-	this.GoPremium9 = new lib.LilPip_1();
-	this.GoPremium9.name = "GoPremium9";
-	this.GoPremium9.setTransform(-603.5,190.5);
+	this.LilPipsBTN = new lib.LilPip_1();
+	this.LilPipsBTN.name = "LilPipsBTN";
+	this.LilPipsBTN.setTransform(-603.5,190.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},18).to({state:[{t:this.instance_16}]},6).to({state:[{t:this.GoPremium9}]},3).wait(95));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},18).to({state:[{t:this.instance_16}]},6).to({state:[{t:this.LilPipsBTN}]},3).wait(95));
 	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(18).to({_off:false},0).to({regX:0,regY:0,scaleX:1,scaleY:1,x:-603.5,y:198.25,alpha:1},6).to({_off:true,y:190.5},3).wait(95));
 
 	// Floofers
@@ -3870,11 +3938,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_17.alpha = 0;
 	this.instance_17._off = true;
 
-	this.GoPremium7 = new lib.Floofers_1();
-	this.GoPremium7.name = "GoPremium7";
-	this.GoPremium7.setTransform(-804.5,204.5);
+	this.FloofersBTN = new lib.Floofers_1();
+	this.FloofersBTN.name = "FloofersBTN";
+	this.FloofersBTN.setTransform(-804.5,204.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},16).to({state:[{t:this.instance_17}]},6).to({state:[{t:this.GoPremium7}]},3).wait(97));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},16).to({state:[{t:this.instance_17}]},6).to({state:[{t:this.FloofersBTN}]},3).wait(97));
 	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(16).to({_off:false},0).to({scaleX:1,scaleY:1,y:212.25,alpha:1},6).to({_off:true,y:204.5},3).wait(97));
 
 	// Purps
@@ -3883,11 +3951,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_18.alpha = 0;
 	this.instance_18._off = true;
 
-	this.GoPremium5 = new lib.Purps_1();
-	this.GoPremium5.name = "GoPremium5";
-	this.GoPremium5.setTransform(-603.5,-15.5);
+	this.PurpsBTN = new lib.Purps_1();
+	this.PurpsBTN.name = "PurpsBTN";
+	this.PurpsBTN.setTransform(-603.5,-15.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_18}]},14).to({state:[{t:this.instance_18}]},6).to({state:[{t:this.GoPremium5}]},3).wait(99));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_18}]},14).to({state:[{t:this.instance_18}]},6).to({state:[{t:this.PurpsBTN}]},3).wait(99));
 	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(14).to({_off:false},0).to({scaleX:1,scaleY:1,y:-7.75,alpha:1},6).to({_off:true,y:-15.5},3).wait(99));
 
 	// LilRed
@@ -3896,11 +3964,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_19.alpha = 0;
 	this.instance_19._off = true;
 
-	this.GoPremium3 = new lib.LilRed_1();
-	this.GoPremium3.name = "GoPremium3";
-	this.GoPremium3.setTransform(-802.5,-15.5);
+	this.LilRedBTN = new lib.LilRed_1();
+	this.LilRedBTN.name = "LilRedBTN";
+	this.LilRedBTN.setTransform(-802.5,-15.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_19}]},12).to({state:[{t:this.instance_19}]},6).to({state:[{t:this.GoPremium3}]},3).wait(101));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_19}]},12).to({state:[{t:this.instance_19}]},6).to({state:[{t:this.LilRedBTN}]},3).wait(101));
 	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(12).to({_off:false},0).to({scaleX:1,scaleY:1,y:-7.75,alpha:1},6).to({_off:true,y:-15.5},3).wait(101));
 
 	// BigGreen
@@ -3909,11 +3977,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_20.alpha = 0;
 	this.instance_20._off = true;
 
-	this.GoPremium1 = new lib.BigGreen_1();
-	this.GoPremium1.name = "GoPremium1";
-	this.GoPremium1.setTransform(-604.5,-211.5);
+	this.BigGreenBTN = new lib.BigGreen_1();
+	this.BigGreenBTN.name = "BigGreenBTN";
+	this.BigGreenBTN.setTransform(-604.5,-211.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_20}]},10).to({state:[{t:this.instance_20}]},6).to({state:[{t:this.GoPremium1}]},3).wait(103));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_20}]},10).to({state:[{t:this.instance_20}]},6).to({state:[{t:this.BigGreenBTN}]},3).wait(103));
 	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(10).to({_off:false},0).to({scaleX:1,scaleY:1,y:-203.75,alpha:1},6).to({_off:true,y:-211.5},3).wait(103));
 
 	// Kid
@@ -5382,90 +5450,126 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 	}
 	this.frame_15 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_24 = function() {
 		this.stop();
 	}
 	this.frame_40 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_49 = function() {
 		this.stop();
 	}
 	this.frame_65 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_74 = function() {
 		this.stop();
 	}
 	this.frame_90 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_99 = function() {
 		this.stop();
 	}
 	this.frame_115 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_124 = function() {
 		this.stop();
 	}
 	this.frame_140 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_149 = function() {
 		this.stop();
 	}
 	this.frame_165 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_174 = function() {
 		this.stop();
 	}
 	this.frame_190 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_199 = function() {
 		this.stop();
 	}
 	this.frame_215 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.CUSTSTORYBTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("Customizer");  // Replace with the actual label name on the main timeline
+		    console.log("Customize Story button clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("Customizer");
+		    if (exportRoot.CustomizeCharacter) {
+		        exportRoot.CustomizeCharacter.gotoAndPlay(1);
+		    }
+		    console.log("Navigated to Customizer");
 		});
 	}
 	this.frame_224 = function() {
@@ -5708,45 +5812,18 @@ if (reversed == null) { reversed = false; }
 	// timeline functions:
 	this.frame_9 = function() {
 		this.BMLogo.addEventListener("click", function() {
+		    console.log("Logo clicked");
+		    exportRoot.resetAllScenes();
 		    exportRoot.gotoAndStop("HomePage");
-		    if (exportRoot.ChooseStoryScene) {
-		        resetChooseStoryScene(exportRoot.ChooseStoryScene);
-		    } else {
-		        console.log("ChooseStoryScene not found");
-		    }
+		    console.log("Navigated to HomePage");
 		});
-		
-		function resetChooseStoryScene(scene) {
-		    if (!scene) {
-		        console.log("Scene is null or undefined");
-		        return;
-		    }
-		    var bookButtons = ["BTN_Book_1", "BTN_Book_2", "BTN_Book_3", "BTN_Book_4", "BTN_Book_5", "BTN_Book_6", "BTN_Book_7", "BTN_Book_8", "BTN_Book_9"];
-		    
-		    bookButtons.forEach(function(buttonName) {
-		        var button = scene[buttonName];
-		        if (button) {
-		            button.gotoAndStop(9);
-		            button.selected = false;
-		            // Remove existing listeners to avoid duplicates
-		            button.removeEventListener("mouseover", button.handleRollover);
-		            button.removeEventListener("mouseout", button.handleRollout);
-		            // Add listeners back
-		            button.addEventListener("mouseover", button.handleRollover);
-		            button.addEventListener("mouseout", button.handleRollout);
-		        }
-		    });
-		    
-		    if (scene.SelectedBook) {
-		        scene.SelectedBook.gotoAndStop(0);
-		    }
-		}
 	}
 	this.frame_20 = function() {
-		// Assuming 'myButton' is the instance name of the MovieClip you want to click
 		this.booksMNU_BTN.addEventListener("click", function() {
-		    // Reference the main timeline through 'exportRoot'
-		    exportRoot.gotoAndStop("BookSelect");  // Replace with the actual label name on the main timeline
+		    console.log("Books Clicked");
+		    exportRoot.resetAllScenes();
+		    exportRoot.gotoAndStop("BookSelect");
+		    console.log("Navigated to BookSelect");
 		});
 	}
 	this.frame_22 = function() {
@@ -6035,7 +6112,7 @@ p.nominalBounds = new cjs.Rectangle(-946.5,-457.5,2665.1,915);
 
 
 // stage content:
-(lib.V2_BeatMonsterclubMockupHTML5 = function(mode,startPosition,loop,reversed) {
+(lib.V3_BeatMonsterclubMockupHTML5 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -6049,6 +6126,86 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0,1,2,3];
 	// timeline functions:
 	this.frame_0 = function() {
+		this.resetAllScenes = function() {
+		    console.log("Resetting all scenes");
+		    
+		    if (this.HomePage) {
+		        this.resetHomePage(this.HomePage);
+		        console.log("Reset HomePage");
+		    }
+		    
+		    if (this.ChooseStoryScene) {
+		        this.resetChooseStoryScene(this.ChooseStoryScene);
+		        console.log("Reset ChooseStoryScene");
+		    }
+		    
+		    if (this.CustomizeCharacter) {
+		        this.resetCustomizeScene(this.CustomizeCharacter);
+		        console.log("Reset CustomizeCharacter");
+		    }
+		};
+		
+		this.resetHomePage = function(scene) {
+		    scene.gotoAndStop(0);
+		    if (scene.GoPremium) scene.GoPremium.gotoAndStop(0);
+		    if (scene.OtherGifts2) scene.OtherGifts2.gotoAndStop(0);
+		    if (scene.ANIMATIONS2) scene.ANIMATIONS2.gotoAndStop(0);
+		    if (scene.BOOKS2) scene.BOOKS2.gotoAndStop(0);
+		    if (scene.PERSONLIZEDPRODUCTS) scene.PERSONLIZEDPRODUCTS.gotoAndStop(0);
+		    if (scene.YourchildbecomestheHEROofallourbooksstoriesandanim) scene.YourchildbecomestheHEROofallourbooksstoriesandanim.gotoAndStop(0);
+		    if (scene.YourKidsaHERO) scene.YourKidsaHERO.gotoAndStop(0);
+		    if (scene.mOMdAUGHTER) scene.mOMdAUGHTER.gotoAndStop(0);
+		    console.log("Completed reset of HomePage");
+		};
+		
+		this.resetChooseStoryScene = function(scene) {
+		    scene.gotoAndStop(0);
+		    if (scene.SelectedBook) scene.SelectedBook.gotoAndStop(0);
+		    
+		    var bookButtons = ["BTN_Book_1", "BTN_Book_2", "BTN_Book_3", "BTN_Book_4", "BTN_Book_5", "BTN_Book_6", "BTN_Book_7", "BTN_Book_8", "BTN_Book_9"];
+		    bookButtons.forEach(function(buttonName) {
+		        if (scene[buttonName]) {
+		            scene[buttonName].gotoAndStop(9);
+		            scene[buttonName].selected = false;
+		            console.log("Reset " + buttonName);
+		        }
+		    });
+		    console.log("Completed reset of ChooseStoryScene");
+		};
+		
+		this.resetCustomizeScene = function(scene) {
+		    console.log("Resetting CustomizeScene");
+		
+		    var characterButtons = ["KidClick", "BigGreen", "LilRed", "Purps", "Floofers", "LilPip"];
+		    characterButtons.forEach(function(buttonName) {
+		        if (scene[buttonName]) {
+		            scene[buttonName].gotoAndStop(0);
+		            console.log("Reset " + buttonName);
+		        }
+		    });
+		
+		    var customAreas = ["BigGreenCustom", "LilRedCustom", "PurpsCustom", "FloofersCustom", "LilPipCustom"];
+		    customAreas.forEach(function(areaName) {
+		        if (scene[areaName]) {
+		            scene[areaName].gotoAndStop(0);
+		            scene[areaName].alpha = 0;
+		            console.log("Reset " + areaName);
+		        }
+		    });
+		
+		    if (scene.CharacterName) scene.CharacterName.gotoAndStop(0);
+		    if (scene.ColorOptionsMNU) scene.ColorOptionsMNU.gotoAndStop(0);
+		    if (scene.CustomizationOptionsMNU) scene.CustomizationOptionsMNU.gotoAndStop(0);
+		    if (scene.KidDemo) scene.KidDemo.gotoAndStop(0);
+		    if (scene.FinishCust) scene.FinishCust.gotoAndStop(0);
+		    if (scene.GoPremiumBTN2) scene.GoPremiumBTN2.gotoAndStop(0);
+		
+		    if (!scene.paused) {
+		        scene.gotoAndPlay(1);
+		    }
+		
+		    console.log("Completed reset of CustomizeScene");
+		};
 		// Stop the main timeline
 		this.stop(); // Stops the main timeline from advancing
 	}
