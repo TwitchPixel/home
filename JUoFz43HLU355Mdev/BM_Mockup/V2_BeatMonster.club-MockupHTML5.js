@@ -5823,6 +5823,9 @@ if (reversed == null) { reversed = false; }
 		    console.log("Books Clicked");
 		    exportRoot.resetAllScenes();
 		    exportRoot.gotoAndStop("BookSelect");
+		    if (exportRoot.ChooseStoryScene) {
+		        exportRoot.ChooseStoryScene.gotoAndPlay(1);
+		    }
 		    console.log("Navigated to BookSelect");
 		});
 	}
@@ -6136,6 +6139,7 @@ if (reversed == null) { reversed = false; }
 		    
 		    if (this.ChooseStoryScene) {
 		        this.resetChooseStoryScene(this.ChooseStoryScene);
+		        // Do not stop ChooseStoryScene here
 		        console.log("Reset ChooseStoryScene");
 		    }
 		    
@@ -6143,6 +6147,10 @@ if (reversed == null) { reversed = false; }
 		        this.resetCustomizeScene(this.CustomizeCharacter);
 		        console.log("Reset CustomizeCharacter");
 		    }
+		    
+		    // CheckoutScene reset remains disabled
+		    
+		    console.log("All scenes have been reset");
 		};
 		
 		this.resetHomePage = function(scene) {
@@ -6159,9 +6167,9 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		this.resetChooseStoryScene = function(scene) {
-		    scene.gotoAndStop(0);
-		    if (scene.SelectedBook) scene.SelectedBook.gotoAndStop(0);
+		    console.log("Resetting ChooseStoryScene");
 		    
+		    // Reset book buttons
 		    var bookButtons = ["BTN_Book_1", "BTN_Book_2", "BTN_Book_3", "BTN_Book_4", "BTN_Book_5", "BTN_Book_6", "BTN_Book_7", "BTN_Book_8", "BTN_Book_9"];
 		    bookButtons.forEach(function(buttonName) {
 		        if (scene[buttonName]) {
@@ -6170,12 +6178,18 @@ if (reversed == null) { reversed = false; }
 		            console.log("Reset " + buttonName);
 		        }
 		    });
+		
+		    if (scene.SelectedBook) {
+		        scene.SelectedBook.gotoAndStop(0);
+		    }
+		
+		    // Do not modify the main timeline of ChooseStoryScene here
+		    
 		    console.log("Completed reset of ChooseStoryScene");
 		};
 		
 		this.resetCustomizeScene = function(scene) {
 		    console.log("Resetting CustomizeScene");
-		
 		    var characterButtons = ["KidClick", "BigGreen", "LilRed", "Purps", "Floofers", "LilPip"];
 		    characterButtons.forEach(function(buttonName) {
 		        if (scene[buttonName]) {
@@ -6183,7 +6197,6 @@ if (reversed == null) { reversed = false; }
 		            console.log("Reset " + buttonName);
 		        }
 		    });
-		
 		    var customAreas = ["BigGreenCustom", "LilRedCustom", "PurpsCustom", "FloofersCustom", "LilPipCustom"];
 		    customAreas.forEach(function(areaName) {
 		        if (scene[areaName]) {
@@ -6192,18 +6205,15 @@ if (reversed == null) { reversed = false; }
 		            console.log("Reset " + areaName);
 		        }
 		    });
-		
 		    if (scene.CharacterName) scene.CharacterName.gotoAndStop(0);
 		    if (scene.ColorOptionsMNU) scene.ColorOptionsMNU.gotoAndStop(0);
 		    if (scene.CustomizationOptionsMNU) scene.CustomizationOptionsMNU.gotoAndStop(0);
 		    if (scene.KidDemo) scene.KidDemo.gotoAndStop(0);
 		    if (scene.FinishCust) scene.FinishCust.gotoAndStop(0);
 		    if (scene.GoPremiumBTN2) scene.GoPremiumBTN2.gotoAndStop(0);
-		
 		    if (!scene.paused) {
 		        scene.gotoAndPlay(1);
 		    }
-		
 		    console.log("Completed reset of CustomizeScene");
 		};
 		// Stop the main timeline
